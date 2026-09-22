@@ -41,6 +41,8 @@ No `pip install` is required. `psutil` is already a ComfyUI dependency.
 - **RAM**: resident physical memory (RSS / Working Set) of the ComfyUI Python process. The bar uses installed RAM only as its capacity denominator; it does not display whole-system RAM consumption.
 - **CPU / I/O**: process CPU usage and actual process disk read/write rate.
 
+![Screenshot](emm1.png) ![Screenshot](emm2.png) ![Screenshot](emm3.png)
+
 ## Accuracy notes
 
 The per-model V/R bars represent **model weights**, not all temporary inference allocations. Activations, latents, attention buffers, CUDA contexts and allocator caches are intentionally not assigned to individual models.
